@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pin turnament</string>
+    <string name="pin_hint">pin…</string>
+</resources>

@@ -1,0 +1,10 @@
+eu.softisland.pinturnament.GuardActivity
+eu.softisland.pinturnament.R$dimen: int topSecretTextSize
+eu.softisland.pinturnament.R$drawable: int ic_launcher
+eu.softisland.pinturnament.R$id: int goButton
+eu.softisland.pinturnament.R$id: int pin
+eu.softisland.pinturnament.R$layout: int empty_activity
+eu.softisland.pinturnament.R$layout: int top_secret
+eu.softisland.pinturnament.R$string: int app_name
+eu.softisland.pinturnament.R$string: int pin_hint
+eu.softisland.pinturnament.TopSecretActivity

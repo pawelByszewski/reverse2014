@@ -1,0 +1,11 @@
+eu.softisland.pinturnament.GuardActivity -> eu.softisland.pinturnament.GuardActivity:
+    android.widget.Button goButon -> a
+    android.widget.EditText pinEditText -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    android.widget.EditText access$100(eu.softisland.pinturnament.GuardActivity) -> a
+eu.softisland.pinturnament.GuardActivity$1 -> eu.softisland.pinturnament.a:
+eu.softisland.pinturnament.GuardActivity$GoButtonListener -> eu.softisland.pinturnament.b:
+    eu.softisland.pinturnament.GuardActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+eu.softisland.pinturnament.TopSecretActivity -> eu.softisland.pinturnament.TopSecretActivity:
+    void onCreate(android.os.Bundle) -> onCreate

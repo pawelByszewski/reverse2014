@@ -1,0 +1,372 @@
+_____________________________________________________________________
++ Program class: eu/softisland/pinturnament/GuardActivity
+  Superclass:    android/app/Activity
+  Major version: 0x31
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class eu.softisland.pinturnament.GuardActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 47):
+  + Integer [2130903040]
+  + Integer [2131099648]
+  + Integer [2131099649]
+  + Class [android/app/Activity]
+  + Class [android/widget/Button]
+  + Class [android/widget/EditText]
+  + Class [eu/softisland/pinturnament/GuardActivity]
+  + Class [eu/softisland/pinturnament/b]
+  + Fieldref [eu/softisland/pinturnament/GuardActivity.a Landroid/widget/Button;]
+  + Fieldref [eu/softisland/pinturnament/GuardActivity.b Landroid/widget/EditText;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [eu/softisland/pinturnament/GuardActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [eu/softisland/pinturnament/GuardActivity.setContentView (I)V]
+  + Methodref [eu/softisland/pinturnament/b.<init> (Leu/softisland/pinturnament/GuardActivity;Leu/softisland/pinturnament/a;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Leu/softisland/pinturnament/GuardActivity;Leu/softisland/pinturnament/a;)V]
+  + NameAndType [a Landroid/widget/Button;]
+  + NameAndType [b Landroid/widget/EditText;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Leu/softisland/pinturnament/GuardActivity;)Landroid/widget/EditText;]
+  + Utf8 [(Leu/softisland/pinturnament/GuardActivity;Leu/softisland/pinturnament/a;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/Button;]
+  + Utf8 [Landroid/widget/EditText;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [b]
+  + Utf8 [eu/softisland/pinturnament/GuardActivity]
+  + Utf8 [eu/softisland/pinturnament/b]
+  + Utf8 [findViewById]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+
+Fields (count = 2):
+  + Field:        a Landroid/widget/Button;
+    Access flags: 0x2
+      = private android.widget.Button a
+  + Field:        b Landroid/widget/EditText;
+    Access flags: 0x2
+      = private android.widget.EditText b
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public GuardActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #11
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 54, locals = 2, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #12
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #15
+        + Methodref [eu/softisland/pinturnament/GuardActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] aload_0 v0
+      [13] ldc #2
+        + Integer [2131099648]
+      [15] invokevirtual #14
+        + Methodref [eu/softisland/pinturnament/GuardActivity.findViewById (I)Landroid/view/View;]
+      [18] checkcast #5
+        + Class [android/widget/Button]
+      [21] putfield #9
+        + Fieldref [eu/softisland/pinturnament/GuardActivity.a Landroid/widget/Button;]
+      [24] aload_0 v0
+      [25] aload_0 v0
+      [26] ldc #3
+        + Integer [2131099649]
+      [28] invokevirtual #14
+        + Methodref [eu/softisland/pinturnament/GuardActivity.findViewById (I)Landroid/view/View;]
+      [31] checkcast #6
+        + Class [android/widget/EditText]
+      [34] putfield #10
+        + Fieldref [eu/softisland/pinturnament/GuardActivity.b Landroid/widget/EditText;]
+      [37] aload_0 v0
+      [38] getfield #9
+        + Fieldref [eu/softisland/pinturnament/GuardActivity.a Landroid/widget/Button;]
+      [41] new #8
+        + Class [eu/softisland/pinturnament/b]
+      [44] dup
+      [45] aload_0 v0
+      [46] aconst_null
+      [47] invokespecial #16
+        + Methodref [eu/softisland/pinturnament/b.<init> (Leu/softisland/pinturnament/GuardActivity;Leu/softisland/pinturnament/a;)V]
+      [50] invokevirtual #13
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [53] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Leu/softisland/pinturnament/GuardActivity;)Landroid/widget/EditText;
+    Access flags: 0x1008
+      = static synthetic android.widget.EditText a(eu.softisland.pinturnament.GuardActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #10
+        + Fieldref [eu/softisland/pinturnament/GuardActivity.b Landroid/widget/EditText;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: eu/softisland/pinturnament/a
+  Superclass:    java/lang/Object
+  Major version: 0x31
+  Minor version: 0x0
+  Access flags:  0x1020
+    = synthetic class eu.softisland.pinturnament.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 5):
+  + Class [eu/softisland/pinturnament/a]
+  + Class [java/lang/Object]
+  + Utf8 [eu/softisland/pinturnament/a]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: eu/softisland/pinturnament/b
+  Superclass:    java/lang/Object
+  Major version: 0x31
+  Minor version: 0x0
+  Access flags:  0x20
+    = class eu.softisland.pinturnament.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 54):
+  + String []
+  + Class [android/content/Intent]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/EditText]
+  + Class [eu/softisland/pinturnament/GuardActivity]
+  + Class [eu/softisland/pinturnament/TopSecretActivity]
+  + Class [eu/softisland/pinturnament/b]
+  + Class [java/lang/Object]
+  + Fieldref [eu/softisland/pinturnament/b.a Leu/softisland/pinturnament/GuardActivity;]
+  + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+  + Methodref [android/widget/EditText.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [eu/softisland/pinturnament/GuardActivity.a (Leu/softisland/pinturnament/GuardActivity;)Landroid/widget/EditText;]
+  + Methodref [eu/softisland/pinturnament/GuardActivity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [eu/softisland/pinturnament/b.<init> (Leu/softisland/pinturnament/GuardActivity;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [<init> (Leu/softisland/pinturnament/GuardActivity;)V]
+  + NameAndType [a (Leu/softisland/pinturnament/GuardActivity;)Landroid/widget/EditText;]
+  + NameAndType [a Leu/softisland/pinturnament/GuardActivity;]
+  + NameAndType [getText ()Landroid/text/Editable;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 []
+  + Utf8 [()Landroid/text/Editable;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Leu/softisland/pinturnament/GuardActivity;)Landroid/widget/EditText;]
+  + Utf8 [(Leu/softisland/pinturnament/GuardActivity;)V]
+  + Utf8 [(Leu/softisland/pinturnament/GuardActivity;Leu/softisland/pinturnament/a;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Leu/softisland/pinturnament/GuardActivity;]
+  + Utf8 [a]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [eu/softisland/pinturnament/GuardActivity]
+  + Utf8 [eu/softisland/pinturnament/TopSecretActivity]
+  + Utf8 [eu/softisland/pinturnament/b]
+  + Utf8 [getText]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [setText]
+  + Utf8 [startActivity]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Leu/softisland/pinturnament/GuardActivity;
+    Access flags: 0x1010
+      = final synthetic eu.softisland.pinturnament.GuardActivity a
+
+Methods (count = 3):
+  - Method:       <init>(Leu/softisland/pinturnament/GuardActivity;)V
+    Access flags: 0x2
+      = private b(eu.softisland.pinturnament.GuardActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #9
+        + Fieldref [eu/softisland/pinturnament/b.a Leu/softisland/pinturnament/GuardActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #16
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 52, locals = 2, stack = 5):
+      [0] aload_0 v0
+      [1] getfield #9
+        + Fieldref [eu/softisland/pinturnament/b.a Leu/softisland/pinturnament/GuardActivity;]
+      [4] invokestatic #13
+        + Methodref [eu/softisland/pinturnament/GuardActivity.a (Leu/softisland/pinturnament/GuardActivity;)Landroid/widget/EditText;]
+      [7] invokevirtual #11
+        + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+      [10] invokevirtual #17
+        + Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+      [13] ifnull +26 (target=39)
+      [16] aload_0 v0
+      [17] getfield #9
+        + Fieldref [eu/softisland/pinturnament/b.a Leu/softisland/pinturnament/GuardActivity;]
+      [20] new #2
+        + Class [android/content/Intent]
+      [23] dup
+      [24] aload_0 v0
+      [25] getfield #9
+        + Fieldref [eu/softisland/pinturnament/b.a Leu/softisland/pinturnament/GuardActivity;]
+      [28] ldc #6
+        + Class [eu/softisland/pinturnament/TopSecretActivity]
+      [30] invokespecial #10
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [33] invokevirtual #14
+        + Methodref [eu/softisland/pinturnament/GuardActivity.startActivity (Landroid/content/Intent;)V]
+      [36] goto +15 (target=51)
+      [39] aload_0 v0
+      [40] getfield #9
+        + Fieldref [eu/softisland/pinturnament/b.a Leu/softisland/pinturnament/GuardActivity;]
+      [43] invokestatic #13
+        + Methodref [eu/softisland/pinturnament/GuardActivity.a (Leu/softisland/pinturnament/GuardActivity;)Landroid/widget/EditText;]
+      [46] ldc #1
+        + String []
+      [48] invokevirtual #12
+        + Methodref [android/widget/EditText.setText (Ljava/lang/CharSequence;)V]
+      [51] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Leu/softisland/pinturnament/GuardActivity;Leu/softisland/pinturnament/a;)V
+    Access flags: 0x1000
+      = synthetic b(eu.softisland.pinturnament.GuardActivity,eu.softisland.pinturnament.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #15
+        + Methodref [eu/softisland/pinturnament/b.<init> (Leu/softisland/pinturnament/GuardActivity;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: eu/softisland/pinturnament/TopSecretActivity
+  Superclass:    android/app/Activity
+  Major version: 0x31
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class eu.softisland.pinturnament.TopSecretActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 19):
+  + Integer [2130903041]
+  + Class [android/app/Activity]
+  + Class [eu/softisland/pinturnament/TopSecretActivity]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [eu/softisland/pinturnament/TopSecretActivity.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [eu/softisland/pinturnament/TopSecretActivity]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public TopSecretActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #5
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903041]
+      [8] invokevirtual #6
+        + Methodref [eu/softisland/pinturnament/TopSecretActivity.setContentView (I)V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>eu.softisland.pinturnament</groupId>
+    <artifactId>find_pin</artifactId>
+    <version>${my.project.version}</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>example</module>
+    </modules>
+
+    <properties>
+        <my.project.version>1.0.0-SNAPSHOT</my.project.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <android.plugin.version>3.8.2</android.plugin.version>
+        <platform.version>4.1.1.4</platform.version>
+
+        <junit.version>4.11</junit.version>
+        <robolectric.version>2.2</robolectric.version>
+        <mockito.version>1.9.5</mockito.version>
+        <fest-assert.version>1.4</fest-assert.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.google.android</groupId>
+                <artifactId>android</artifactId>
+                <version>${platform.version}</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <profiles>
+        <profile>
+            <id>debug</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <skip_proguard>true</skip_proguard>
+            </properties>
+        </profile>
+        <profile>
+            <id>proguard</id>
+            <properties>
+                <skip_proguard>false</skip_proguard>
+            </properties>
+        </profile>
+    </profiles>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                    <artifactId>android-maven-plugin</artifactId>
+                    <version>${android.plugin.version}</version>
+                    <extensions>true</extensions>
+                    <configuration>
+                        <sdk>
+                            <platform>17</platform>
+                        </sdk>
+                        <proguard>
+                            <config>proguard/proguard.cfg</config>
+                            <skip>${skip_proguard}</skip>
+                        </proguard>
+                        <mergeManifests>true</mergeManifests>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

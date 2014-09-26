@@ -1,0 +1,8 @@
+eu.softisland.pinturnament.BuildConfig
+eu.softisland.pinturnament.R
+eu.softisland.pinturnament.R$attr
+eu.softisland.pinturnament.R$dimen
+eu.softisland.pinturnament.R$drawable
+eu.softisland.pinturnament.R$id
+eu.softisland.pinturnament.R$layout
+eu.softisland.pinturnament.R$string
